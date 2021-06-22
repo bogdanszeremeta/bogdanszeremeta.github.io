@@ -1,0 +1,20 @@
+.btn {
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 9px 28px;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 2px 2px 10px $main-color;
+    }
+    &_transp {
+        padding: 9px 28px;
+    }
+    &_contact {
+        display: block;
+        margin: 0 auto;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

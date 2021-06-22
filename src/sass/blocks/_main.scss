@@ -1,0 +1,50 @@
+.main {
+    min-height: 100vh;
+    position: relative;
+    background: url('../img/main_bg.png') no-repeat 50%/cover;
+    padding-top: 368px;
+    &__title {
+        margin-top: 10px;
+    }
+    &__btns {
+        margin-top: 25px;
+        display: flex;
+        width: 250px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        color: #FFFFFF;
+        font-weight: bold;
+        &:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    &__circle {
+        position: relative;
+        padding-left: 12px;
+        z-index: 1;
+        @include before_circle;
+    }
+    .hamburger {
+        position: absolute;
+        height: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        top: 25px;
+        right: 35px;
+        cursor: pointer;
+        span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background: #FFFFFF;
+        }
+        span.long {
+            width: 36px;
+        }
+    }
+}

@@ -2,7 +2,7 @@
 
 My personal portfolio, which features my github projects as well as my resume and technical skills.
 This project has two folders - docs and src. 
-The docs folder holds files from which working applications has been deployed to link bogdanszeremeta.github.io. Inside this link are available my other projects, which have there own repositories:
+The docs folder holds files from which working applications has been deployed to [link](bogdanszeremeta.github.io). Inside this link are available my other projects, which have there own repositories:
 
 :white_small_square: [Blog](https://github.com/bogdanszeremeta/angular-blog)\
 :white_small_square: [Food](https://github.com/bogdanszeremeta/food)\

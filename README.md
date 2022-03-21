@@ -13,4 +13,4 @@ The docs folder holds files from which working applications has been deployed to
 The src folder has development code of portfolio itself.
 
 ## Quick Start
-```git clone https://github.com/bogdanszeremeta/angular-blog.git```\
+```git clone https://github.com/bogdanszeremeta/angular-blog.git```
